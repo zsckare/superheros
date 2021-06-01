@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Registrarse</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Crear cuenta</ion-card-subtitle>
+      <ion-card-title>Bienvenido</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-label position="floating">Nombre</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-item>
+              <ion-label position="floating">Correo</ion-label>
+              <ion-input></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            
+          <ion-item>
+            <ion-label>Genero</ion-label>
+            <ion-select placeholder="Select One">
+              <ion-select-option value="masculino">Masculino</ion-select-option>
+              <ion-select-option value="femenino">Femenino</ion-select-option>
+              <ion-select-option value="blank">Prefiero no decirlo</ion-select-option>
+            </ion-select>
+          </ion-item>
+          </ion-col>
+        </ion-row>
+      
+
+        <ion-row>
+          <ion-col>
+            <ion-button (click)="registro()" style="text-align: center;">
+              Registrarse
+            </ion-button>
+          </ion-col>
+        </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

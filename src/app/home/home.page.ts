@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {Router } from '@angular/router';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private router: Router) {}
 
+  goto(){
+    let sesion = localStorage.getItem("sesion")
+    if(sesion){
+      this.router.navigate(['welcome'])
+    }else{
+      this.router.navigate(['registro'])
+    }
+  }
 }

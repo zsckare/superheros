@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img [src]="data.images.lg" />
+    <ion-card-header>
+      <ion-card-subtitle>Nombre completo: {{data.biography.fullName}}</ion-card-subtitle>      
+    </ion-card-header>
+    <ion-card-content>
+      <p>Raza: {{data.appearance.race}}</p>
+      <p>Primera aparicion: {{data.biography.firstAppearance}}</p>
+      <p>Afiliaciones: {{data.connections.groupAffiliation}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
