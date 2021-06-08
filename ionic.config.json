@@ -1,5 +1,7 @@
 {
   "name": "superheros",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

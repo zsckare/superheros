@@ -19,7 +19,7 @@
           <ion-col>
             <ion-item>
               <ion-label position="floating">Nombre</ion-label>
-              <ion-input></ion-input>
+              <ion-input [(ngModel)]="nombre"></ion-input>
             </ion-item>
           </ion-col>
         </ion-row>
@@ -27,7 +27,7 @@
           <ion-col>
             <ion-item>
               <ion-label position="floating">Correo</ion-label>
-              <ion-input></ion-input>
+              <ion-input [(ngModel)]="correo" ></ion-input>
             </ion-item>
           </ion-col>
         </ion-row>
@@ -36,10 +36,10 @@
             
           <ion-item>
             <ion-label>Genero</ion-label>
-            <ion-select placeholder="Seleccinar">
+            <ion-select placeholder="Seleccinar" [(ngModel)]="genero" >
               <ion-select-option value="masculino">Masculino</ion-select-option>
               <ion-select-option value="femenino">Femenino</ion-select-option>
-              <ion-select-option value="blank">Prefiero no decirlo</ion-select-option>
+              <ion-select-option value="Prefiero no decirlo">Prefiero no decirlo</ion-select-option>
             </ion-select>
           </ion-item>
           </ion-col>

@@ -10,16 +10,16 @@
 <ion-content>
   <ion-card>
     <ion-card-header>
-      <ion-card-subtitle>Nombre: Juan Perez</ion-card-subtitle>
+      <ion-card-subtitle>Nombre: {{data[0].nombre}}</ion-card-subtitle>
       
     </ion-card-header>
   
     <ion-card-content>
-      <p>Correo:algo@algo.com</p>
-      <p>Genero: Prefiero no decirlo</p>
+      <p>Correo: {{data[0].correo}} </p>
+      <p>Genero: {{data[0].genero}} </p>
       
 
-      <ion-button [routerLink]="['/editprofile']">Editar </ion-button>
+      <ion-button (click)="editarPerfil()">Editar </ion-button>
     </ion-card-content>
   </ion-card>
 </ion-content>

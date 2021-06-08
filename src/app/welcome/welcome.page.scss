@@ -22,10 +22,10 @@
     right: 0;
     top: 0;
     background: url('../../assets/dcpersonajes.webp') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%); 
   }
