@@ -42,7 +42,7 @@ export class DatabaseService {
     // Render fake data
     getFakeData() {
       this.httpClient.get(
-        'assets/dump.sql', 
+        'assets/database.sql', 
         {responseType: 'text'}
       ).subscribe(data => {
         this.sqlPorter.importSqlToDb(this.storage, data)

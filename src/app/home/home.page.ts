@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {Router } from '@angular/router';
+import { DatabaseService} from '../services/database.service';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,9 +8,18 @@ import {Router } from '@angular/router';
 })
 export class HomePage {
 
-  constructor(private router: Router) {}
+  constructor(private router: Router,private dbService: DatabaseService) {}
 
+  ngOnInit(){
+    this.dbService.dbState().subscribe((res) => {
+      if(res){
+        this.dbService.fetchUsers().subscribe(item => {      
+        })
+      }
+    });    
+  }
   goto(){
+
     let sesion = localStorage.getItem("sesion")
     if(sesion){
       this.router.navigate(['welcome'])
