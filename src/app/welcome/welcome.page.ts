@@ -16,7 +16,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Detective Comics Nº 140 ',
       groupAffiliation:'Sociedad Secreta de Supervillanos',
       image:'../../assets/dc/acertijo.jpg',
-      video:''
+      video:'../../assets/videos/dc/acertijo.mp4',
 
     },
     {
@@ -25,7 +25,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'More Fun Comics, #73 ',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/aquaman.jpg',
-      video:''
+      video:'../../assets/dc/aquaman.mp4',
 
     },
     {
@@ -34,7 +34,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Batman Nº 139',
       groupAffiliation:'',
       image:'../../assets/dc/batgirl.jpg',
-      video:''
+      video:'../../assets/dc/batgirl.mp4',
 
     },
     {
@@ -43,7 +43,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Detective Comics N.º 27',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/batman.jpg',
-      video:''
+      video:'../../assets/dc/batman.mp4',
 
     },
     {
@@ -52,7 +52,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'DC Comics Presents #26 ',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/cyborg.jpg',
-      video:''
+      video:'../../assets/dc/cyborg.mp4',
 
     },
     {
@@ -61,7 +61,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Superman Pal Jimmy Olsen #134',
       groupAffiliation:'Sociedad Secreta de Súper Villanos',
       image:'../../assets/dc/darksaid.jpg',
-      video:''
+      video:'../../assets/dc/darksaid.mp4',
 
     },
     {
@@ -70,7 +70,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'The New Teen Titans (Vol. 1)N.º 2 ',
       groupAffiliation:'Escuadrón Suicida',
       image:'../../assets/dc/deathstroke.jpg',
-      video:''
+      video:'../../assets/dc/deathstroke.mp4',
 
     },
     {
@@ -79,7 +79,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Detective Comics N.º 225',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/detectivemarciano.jpg',
-      video:''
+      video:'../../assets/dc/detectivemarciano.mp4',
 
     },
     {
@@ -88,7 +88,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Showcase #4',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/flash.jpg',
-      video:''
+      video:'../../assets/dc/flash.mp4',
 
     },
     {
@@ -97,7 +97,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'More Fun Comics N°73 ',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/flechaverde.jpg',
-      video:''
+      video:'../../assets/dc/flechaverde.mp4',
 
     },
     {
@@ -106,7 +106,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Batman Nº 1',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/gatubela.jpg',
-      video:''
+      video:'../../assets/dc/gatubela.mp4',
 
     },
     {
@@ -115,7 +115,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Batman: la serie animada Episodio n°. 22:',
       groupAffiliation:'Escuadron Suicida',
       image:'../../assets/dc/harleyqueen.jpg',
-      video:''
+      video:'../../assets/dc/harleyqueen.mp4',
 
     },
     {
@@ -124,16 +124,16 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Batman Nº 181',
       groupAffiliation:'Sociedad Secreta de Super Villanos',
       image:'../../assets/dc/hiedravenenosa.jpg',
-      video:''
+      video:'../../assets/dc/hiedravenenosa.mp4',
 
     },
     {
       name:'Joker',
       fullName:'',
       firstAppearance:'Batman Nº 1',
-      groupAffiliation:'Escuadron Super',
+      groupAffiliation:'Escuadron Suicida',
       image:'../../assets/dc/joker.jpg',
-      video:''
+      video:'../../assets/dc/joker.mp4',
 
     },
     {
@@ -142,7 +142,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Showcase #22',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/linternaverde.jpg',
-      video:''
+      video:'../../assets/dc/linternaverde.mp4',
 
     },
     {
@@ -151,7 +151,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Detective Comics #58 ',
       groupAffiliation:'Liga de la injusticia',
       image:'../../assets/dc/pinguino.jpg',
-      video:''
+      video:'../../assets/dc/pinguino.mp4',
 
     },
     {
@@ -160,7 +160,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Detective Comics #38 ',
       groupAffiliation:'Teen Titans',
       image:'../../assets/dc/robin.jpg',
-      video:''
+      video:'../../assets/dc/robin.mp4',
 
     },
     {
@@ -169,7 +169,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Whiz Comics #2 ',
       groupAffiliation:'Familia Marvel',
       image:'../../assets/dc/shazam.jpg',
-      video:''
+      video:'../../assets/dc/shazam.mp4',
 
     },
     {
@@ -178,7 +178,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:' Action Comics N° 252',
       groupAffiliation:'',
       image:'../../assets/dc/supergirl.jpg',
-      video:''
+      video:'../../assets/dc/supergirl.mp4',
 
     },
     {
@@ -187,7 +187,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Action Comics #1 ',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/superman.jpg',
-      video:''
+      video:'../../assets/dc/superman.mp4',
 
     },
     {
@@ -196,7 +196,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'All Star Comics #8',
       groupAffiliation:'Liga de la Justicia',
       image:'../../assets/dc/wonderwoman.jpg',
-      video:''
+      video:'../../assets/dc/wonderwoman.mp4',
 
     },
 
@@ -210,7 +210,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Tales to Astonish # 27 ',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/antman.jpg',
-      video:''
+      video:'../../assets/marvel/antman.mp4',
 
     },
 
@@ -220,7 +220,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'The Fantastic Four N.º 52 ',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/blackpanther.jpg',
-      video:''
+      video:'../../assets/marvel/blackpanther.mp4',
 
     },
     {
@@ -229,7 +229,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:' Captain America Comics #1',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/capitanamerica.jpg',
-      video:''
+      video:'../../assets/marvel/capitanamerica.mp4',
 
     },
     {
@@ -238,7 +238,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:' Daredevil #1',
       groupAffiliation:'Marvel Knights',
       image:'../../assets/marvel/daredevil.jpg',
-      video:''
+      video:'../../assets/marvel/daredevil.mp4',
 
     },
     {
@@ -247,7 +247,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'The New Mutants Nº 98',
       groupAffiliation:'X-Men',
       image:'../../assets/marvel/deadpool.jpg',
-      video:''
+      video:'../../assets/marvel/deadpool.mp4',
 
     },
     {
@@ -256,7 +256,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Strange Tales número 110 ',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/drstrange.jpg',
-      video:''
+      video:'../../assets/marvel/drstrange.mp4',
 
     },
     {
@@ -265,7 +265,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'	The Amazing Spider-Man #14',
       groupAffiliation:'',
       image:'../../assets/marvel/duendeverde.jpg',
-      video:''
+      video:'../../assets/marvel/duendeverde.mp4',
 
     },
     {
@@ -274,7 +274,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Marvel Spotlight #5 ',
       groupAffiliation:'Thunderbolts',
       image:'../../assets/marvel/ghostrider.jpg',
-      video:''
+      video:'../../assets/marvel/ghostrider.mp4',
 
     },
     {
@@ -283,7 +283,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:' The Incredible Hulk #1',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/hulk.jpg',
-      video:''
+      video:'../../assets/marvel/hulk.mp4',
 
     },
     {
@@ -292,7 +292,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:' Tales of Suspense #39',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/ironman.jpg',
-      video:''
+      video:'../../assets/marvel/ironman.mp4',
 
     },
     {
@@ -301,7 +301,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Ultimate Fallout #4',
       groupAffiliation:'',
       image:'../../assets/marvel/mylesmorales.jpg',
-      video:''
+      video:'../../assets/marvel/mylesmorales.mp4',
 
     },
     {
@@ -310,7 +310,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Amazing Fantasy #15',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/spiderman.jpg',
-      video:''
+      video:'../../assets/marvel/spiderman.mp4',
 
     },
     {
@@ -319,7 +319,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Iron Man Vol. 1, #55 ',
       groupAffiliation:'Guardia del Infinito',
       image:'../../assets/marvel/thanos.jpg',
-      video:''
+      video:'../../assets/marvel/thanos.mp4',
 
     },
     {
@@ -328,7 +328,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Journey Into Mystery #83 ',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/thor.jpg',
-      video:''
+      video:'../../assets/marvel/thanos.mp4',
 
     },
     {
@@ -337,7 +337,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Marvel Super Heroes: Secret Wars #8',
       groupAffiliation:'',
       image:'../../assets/marvel/venom.jpg',
-      video:''
+      video:'../../assets/marvel/venom.mp4',
 
     },
     {
@@ -346,7 +346,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'Avengers #57',
       groupAffiliation:'Los Vengadores',
       image:'../../assets/marvel/vision.jpg',
-      video:''
+      video:'../../assets/marvel/vision.mp4',
 
     },
     {
@@ -355,7 +355,7 @@ export class WelcomePage implements OnInit {
       firstAppearance:'The Incredible Hulk #180 ',
       groupAffiliation:'X-Men',
       image:'../../assets/marvel/wolverine.jpg',
-      video:''
+      video:'./../assets/marvel/wolverine.mp4',
 
     },
   ]

@@ -18,4 +18,12 @@
       <p>Afiliaciones: {{data.groupAffiliation}}</p>
     </ion-card-content>
   </ion-card>
+
+  <video
+  crossorigin
+  controls
+  controlslist="nodownload nofullscreen"
+  [src]="data.video"
+  #player
+></video>
 </ion-content>
